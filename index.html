@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+h3{
+    size: 100px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+img{
+    height: 200px;
+    width: 100PX;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+button{
+  color: #ffffff;
+  height: 30PX;
+  background-color: green;
+  width: 100PX;
+  font-size: x-large;
+}
+
+
+
+
+
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+
+a{color: #f1f1f1;
+  background-color: green;
+
+}
+
+
+img{
+    width: 950px;
+    height: 500px;
+    
+}
+ h1{
+     font-size: 50px;
+ }
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #000000;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+h4{text-align: center;
+background-color: chartreuse;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header" >
+  <h1><img src="fits.jpg" alt="STAY FIT"> </h1>
+  
+
+</div>
+
+<div class="navbar">
+  <a href="https://www.youtube.com/watch?v=ECxYJcnvyMw&list=RDCMUCYgCmTdqDYjBRDLcZ1c_z0A&start_radio=1&rv=ECxYJcnvyMw&t=120">BEGINNERS</a>
+  <a href="https://www.youtube.com/watch?v=CIxNJbit9BA">INTERMEDIATE</a>
+  <a href="https://www.youtube.com/watch?v=b7YoGQuXYRE">ADVANCE</a>
+  
+</div>
+
+
+
+
+
+
+<div class="row">
+
+
+
+  <div class="side">
+    <div class="container">
+        <form action="submit.png.crdownload">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+         
+          <a href="submit.png">SUBMIT</a>
+         
+        </form>
+      </div>
+  </div>
+
+
+
+
+
+
+  
+  <div class="main">
+
+    <h1 class="glow">"DREAMS DON'T WORK UNLESS YOU DO"</h1>
+
+  <hr>
+    <h5>Title description, May 2, 1999</h5>
+    <img src="exercise.png" alt="Fitness">
+    <p><h2>Exercise & Fitness</h2></p>
+    <p>Exercising regularly, every day if possible, is the single most important thing you can do for your health. In the short term, exercise helps to control appetite, boost mood, and improve sleep. In the long term, it reduces the risk of heart disease, stroke, diabetes, dementia, depression, and many cancers.
+        <br>
+        
+       <h2>For adults of all ages</h2>
+        At least 150 minutes of moderate aerobic exercise like brisk walking or 75 minutes of rigorous exercise like running (or an equivalent mix of both) every week.  It’s fine to break up exercise into smaller sessions as long as each one lasts at least 10 minutes.
+        Strength-training that works all major muscle groups—legs, hips, back, abdomen, chest, shoulders, and arms—at least two days a week.  Strength training may involve lifting weights, using resistance bands, or exercises like push-ups and sit-ups, in which your body weight furnishes the resistance.
+        <br>
+        <h2>For pregnant women</h2>
+
+        The guidelines for aerobic exercise are considered safe for most pregnant women. The CDC makes no recommendation for strength training. It’s a good idea to review your exercise plan with your doctor.
+        <br>
+     
+      <h2>  For children </h2>
+        At least 60 minutes of physical activity a day, most of which should be devoted to aerobic exercise. Children should do vigorous exercise and strength training, such as push-ups or gymnastics, on at least three days every week.
+    </p>
+    <br>
+    <hr>
+  
+    <h1 class="glow">"Healthy Food Habits"</h1>
+    <h5>Title description, May 2, 1999</h5>
+    <h3><img src="head1.jpg" alt="Healthy Food Habits"> </h3>
+    
+    <p> <h2>FOOD HABITS.. </h2></p>
+    <p>Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood.
+
+        Healthy eating doesn’t have to be overly complicated. If you feel overwhelmed by all the conflicting nutrition and diet advice out there, you’re not alone. It seems that for every expert who tells you a certain food is good for you, you’ll find another saying exactly the opposite. The truth is that while some specific foods or nutrients have been shown to have a beneficial effect on mood, it’s your overall dietary pattern that is most important. The cornerstone of a healthy diet should be to replace processed food with real food whenever possible. Eating food that is as close as possible to the way nature made it can make a huge difference to the way you think, look, and feel.
+        
+        By using these simple tips, you can cut through the confusion and learn how to create—and stick to—a tasty, varied, and nutritious diet that is as good for your mind as it is for your body.
+        <br>
+        <h3>The fundamentals of healthy eating</h3>
+        While some extreme diets may suggest otherwise, we all need a balance of protein, fat, carbohydrates, fiber, vitamins, and minerals in our diets to sustain a healthy body. You don’t need to eliminate certain categories of food from your diet, but rather select the healthiest options from each category.
+        <br>
+        <h3> Protein.</h3> gives you the energy to get up and go—and keep going—while also supporting mood and cognitive function. Too much protein can be harmful to people with kidney disease, but the latest research suggests that many of us need more high-quality protein, especially as we age. That doesn’t mean you have to eat more animal products—a variety of plant-based sources of protein each day can ensure your body gets all the essential protein it needs. Learn more »
+        <br>
+        <h3> Fat.</h3> Not all fat is the same. While bad fats can wreck your diet and increase your risk of certain diseases, good fats protect your brain and heart. In fact, healthy fats—such as omega-3s—are vital to your physical and emotional health. Including more healthy fat in your diet can help improve your mood, boost your well-being, and even trim your waistline. Learn more »
+        <br>
+        <h3> Fiber.</h3> Eating foods high in dietary fiber (grains, fruit, vegetables, nuts, and beans) can help you stay regular and lower your risk for heart disease, stroke, and diabetes. It can also improve your skin and even help you to lose weight. Learn more »
+        <br>
+        <h3>  Calcium.</h3> As well as leading to osteoporosis, not getting enough calcium in your diet can also contribute to anxiety, depression, and sleep difficulties. Whatever your age or gender, it’s vital to include calcium-rich foods in your diet, limit those that deplete calcium, and get enough magnesium and vitamins D and K to help calcium do its job. Learn more »
+        <br>
+        <h3>   Carbohydrates. </h3>are one of your body’s main sources of energy. But most should come from complex, unrefined carbs (vegetables, whole grains, fruit) rather than sugars and refined carbs. Cutting back on white bread, pastries, starches, and sugar can prevent rapid spikes in blood sugar, fluctuations in mood and energy, and a build-up of fat, especially around your waistline. 
+    <hr>
+    <br>
+ <H4> THANK YOU</H4>
+    
+    
+    </p>
+  </div>
+</div>
+
+<div class=".">
+    <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"></i></a> 
+        <a href="https://www.google.com/search?q=www.google.com&oq=www.g&aqs=chrome.3.69i57j0i131i433l2j0i271l2j69i60l3.3808j0j15&sourceid=chrome&ie=UTF-8"><i class="fa fa-search"></i></a> 
+        <a href="https://www.google.com/search?q=email&oq=email&aqs=chrome..69i57j0i433l8.1477j0j15&sourceid=chrome&ie=UTF-8"><i class="fa fa-envelope"></i></a> 
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a> 
+      </div>
+
+</div>
+
+</body>
+</html>
